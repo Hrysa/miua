@@ -1,0 +1,6 @@
+code: NO serial
+data|10:
+  id: NO serial|1
+  uuid: string|8|toUpperCase - string|4|toUpperCase - string|4|toUpperCase - string|4|toUpperCase - string|12|toUpperCase
+  payload: string|20
+  success: boolean
