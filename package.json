@@ -1,9 +1,7 @@
 {
   "name": "miua",
   "version": "0.0.2",
-  "bin": {
-    "hocoro": "dist/index.js"
-  },
+  "mian": "dist/index.js",
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^25.2.1",
