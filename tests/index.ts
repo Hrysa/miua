@@ -83,5 +83,10 @@ id: string|8|toUpperCase - string|4|toUpperCase - string|4|toUpperCase - string|
 id: number||Boolean
     `);
     expect(!!r.id).toEqual(true);
+
+    r = gen(`
+id: 1
+    `);
+    expect(r.id).toEqual(1);
   });
 });

@@ -53,6 +53,7 @@ function rawGen(src: any, opts: genOptions) {
   }
 
   result = src
+    .toString()
     .split(' ')
     .map((v: any) => parseIdent(v, opts))
     .join('');
