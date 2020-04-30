@@ -1,6 +1,6 @@
 {
   "name": "miua",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "mian": "dist/index.js",
   "license": "MIT",
   "devDependencies": {
