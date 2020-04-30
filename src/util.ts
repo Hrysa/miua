@@ -9,8 +9,13 @@ export function randomString(length: number) {
 
 export function randomNumber(length: number) {
   const list = [];
-  for (let i = 0; i < 10; i++) {
+  for (let i = 0; i < 3; i++) {
     list.push(Math.random().toString().slice(2));
   }
-  return Number(list.join('').replace(/0/g, '').slice(0, length));
+  return Number(
+    list
+      .join('')
+      .replace(/0/g, '')
+      .slice(0, length > 20 ? 20 : length),
+  );
 }
