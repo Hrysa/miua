@@ -2,7 +2,7 @@
   "name": "miua",
   "version": "0.0.1",
   "bin": {
-    "hocoro": "dist/src/index.js"
+    "hocoro": "dist/index.js"
   },
   "license": "MIT",
   "devDependencies": {
